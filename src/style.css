@@ -1,0 +1,148 @@
+/* General CSS */
+
+body {
+  background: rgb(228, 228, 231);
+  font-family: "PT Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Zen Loop", cursive;
+  font-size: 52px;
+  margin-bottom: 28px;
+}
+
+/* Specific CSS */
+
+.container-weather-app {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 16px 20px;
+  border-radius: 16px;
+  background: #83a1c287;
+  border: 6.5px solid rgb(124 122 122 / 37%);
+  max-width: 700px;
+  min-width: 650px;
+}
+
+.header {
+  padding-top: 24px;
+}
+
+#selected-city {
+  font-size: 40px;
+}
+
+.button-pink {
+  background-color: #e80a6bab;
+  color: white;
+  border: none;
+}
+
+.button-yellow {
+  padding: 8px 22px;
+  border-radius: 4px;
+  background-color: #ffc107a8;
+  border: none;
+}
+
+.button-yellow a {
+  color: white;
+  text-decoration: none;
+}
+
+/* styling .container-weatherinfo */
+
+.container-weatherinfo {
+  padding: 20px;
+}
+
+.icon-location {
+  font-size: 32px;
+  color: #e80a6bab;
+  padding: 16px 10px 10px 10px;
+}
+
+.weather-icon {
+  font-size: 40px;
+}
+
+.weather-icon-temp {
+  padding: 0 20px 0 20px;
+  font-size: 68px;
+}
+
+.center-icon {
+  display: flex;
+  align-items: center;
+}
+
+.degree-size {
+  font-size: 10px;
+}
+
+.temperature {
+  font-size: 40px;
+}
+
+.temp-icon {
+  margin: 24px 10px 10px 50px;
+}
+
+.padding-location {
+  padding: 20px 8px 20px 0;
+}
+
+.weather-information {
+  margin: 10px;
+}
+
+/* Card container */
+
+.container-cards {
+  display: flex;
+}
+
+.card-styling {
+  padding: 16px 0 0 0;
+  margin: 10px;
+  border-radius: 16px;
+  border: 6.5px solid rgb(124 122 122 / 37%);
+  background-color: #fafafaba;
+  text-align: center;
+}
+
+.sun {
+  color: #ffc107;
+}
+
+.cloudy {
+  color: #c99d13;
+}
+
+.rain {
+  color: #535252;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+.units {
+  position: relative;
+  top: -16px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #e80a6bab;
+}
