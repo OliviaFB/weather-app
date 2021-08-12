@@ -146,3 +146,9 @@ a {
 a:hover {
   color: #e80a6bab;
 }
+
+.link-githubrepo {
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
